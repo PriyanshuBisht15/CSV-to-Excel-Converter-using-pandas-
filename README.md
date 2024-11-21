@@ -29,6 +29,11 @@ pip install pandas
 
 4. View results: The converted Excel files will be saved in the specified output directory with the same base filenames as the original CSV files.
 
+## Error Handling
+- File Not Found: If a specified CSV file does not exist, an error message will be displayed, and the script will continue processing other files.
+- Empty CSV File: If a CSV file is empty, a warning message will be displayed.
+- Unexpected Errors: Any other errors will be logged with details for debugging.
+
 
 
 ## Requirements
